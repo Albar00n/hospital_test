@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AboutDetails = () => {
-  return (
-    <>
+  return <></>;
+};
 
-    </>
-  )
-}
-
-export default AboutDetails
+export default AboutDetails;
