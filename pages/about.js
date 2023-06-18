@@ -15,7 +15,7 @@ const about = () => {
             
               <Col>
               
-                <img className="img-about1" src="/images/about-img.png" style={{width:"100%",height:"auto"}} alt="imgs"/>
+                <img className="img-about1" src="/images/about-img.png"  alt="imgs"/>
                   
               </Col>
               <Col>
@@ -79,7 +79,7 @@ const about = () => {
                 <Row>
                     <Col xl={4}>
                     <Card style={{ width: '317px',height:'538px' }}>
-                     <Card.Img variant="top" className="img-card" src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\photo1.png" />
+                     <Card.Img variant="top" className="img-card" src="/images/photo2.png" />
                       <Card.Body className="body-card">
                      <Card.Text className="card-body">
                      Doctor’s Name
@@ -88,9 +88,9 @@ const about = () => {
                     Neurology
                     </Card.Text>
                     <Card.Text className="img-ss">
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
+                        <img src="/images/linkin.png"/>
+                        <img src="/images/facebook.png"/>
+                        <img src="/images/insta.png"/>
                     </Card.Text>
                       </Card.Body>
                       <div className="div-card">
@@ -100,7 +100,7 @@ const about = () => {
                     </Col>
                     <Col xl={4}>
                     <Card style={{ width: '317px',height:'538px' }}>
-                     <Card.Img variant="top" className="img-card" src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\photo1.png" />
+                     <Card.Img variant="top" className="img-card" src="/images/photo1.png" />
                       <Card.Body className="body-card">
                      <Card.Text className="card-body">
                      Doctor’s Name
@@ -109,9 +109,9 @@ const about = () => {
                     Neurology
                     </Card.Text>
                     <Card.Text className="img-ss">
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
+                        <img src="/images/linkin.png"/>
+                        <img src="/images/facebook.png"/>
+                        <img src="/images/insta.png"/>
                     </Card.Text>
                       </Card.Body>
                       <div className="div-card">
@@ -121,7 +121,7 @@ const about = () => {
                     </Col>
                     <Col xl={4}>
                     <Card style={{ width: '317px',height:'538px' }}>
-                     <Card.Img variant="top" className="img-card" src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\photo1.png" />
+                     <Card.Img variant="top" className="img-card" src="/images/photo3.png" />
                       <Card.Body className="body-card">
                      <Card.Text className="card-body">
                      Doctor’s Name
@@ -130,9 +130,9 @@ const about = () => {
                     Neurology
                     </Card.Text>
                     <Card.Text className="img-ss">
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
-                        <img src="C:\Users\سالم الحمادي\Downloads\hostpitl\hospital_test\public\img\linkin.png"/>
+                        <img src="/images/linkin.png"/>
+                        <img src="/images/facebook.png"/>
+                        <img src="/images/insta.png"/>
                     </Card.Text>
                       </Card.Body>
                       <div className="div-card">
@@ -142,7 +142,7 @@ const about = () => {
                     </Col>
                 </Row>
                 <div className="points">
-                    <img src="../public/imges/G-62.png"/>
+                    <img src="/images/G-62.png"/>
                 </div>
             </div>
           </div>
