@@ -33,3 +33,182 @@ body {
 .color-primary {
 	color: var(--bg-overlay);
 }
+.div-com1{
+	width: 992px;
+	height: 509px;
+}
+.img-about1{
+	width: 408px;
+	height: 509px;
+}
+.div-com2{
+	width: 446px;
+	height: 139px;
+}
+.p-style1{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #159EEC;
+}
+.p-style2{
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 55px;
+	color: #1F2B6C
+}
+.div-com3{
+	
+	width: 481px;
+	height: 107px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	
+}
+.div-com4{
+	display: flex;
+	gap: 10px;
+	
+}
+.point{
+	width: 16px;
+height: 16px;
+left: 615px;
+top: 641px;
+
+
+background: #159EEC;
+border-radius: 50px;
+}
+.text{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	color: #000000;
+}
+.div-test{
+	width: 129px;
+height: 25px;
+}
+.div-com5{
+	
+	margin-top: 10px;
+
+}
+.p-style3{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #000000;
+}
+.div-com6{
+	Width: 197px;
+	Height: 66px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.div-sec2{
+	position: absolute;
+	width: 992px;
+	height: 718px;
+	margin-top: 40px;
+}
+.p-style6{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #159EEC;
+}
+.p-style4{
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	color: #1F2B6C;
+}
+.div-com7{
+	width: 992px;
+	height: 718px;
+	margin-top: 50px;
+}
+.img-card{
+	width: 317px;
+	height: 350px;
+}
+.body-card{
+	width: 317px;
+	height: 142px;
+	background: #BFD2F8;
+}
+.div-card{
+	width: 317px;
+	height: 46px;
+	background-color: #1F2B6C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-style{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #BFD2F8;
+	padding: auto;
+	padding-top: 10px;
+}
+.card-body{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	text-align: center;
+	color: #1F2B6C;
+	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	}
+.card-body2{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #1F2B6C;
+}
+.img-ss{
+	display: flex;
+	justify-content:center;
+	gap: 30px;
+}
+.points{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
