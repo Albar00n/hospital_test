@@ -1,7 +1,7 @@
 import React from "react";
 
 const DoctorsDetails = () => {
-  return <div>DoctorsDetails</div>;
+  return <div></div>;
 };
 
 export default DoctorsDetails;
