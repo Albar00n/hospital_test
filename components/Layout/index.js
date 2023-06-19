@@ -1,7 +1,15 @@
 import React from "react";
+import NavbarBox from "../Navbar";
+import Header from "../Global/Header";
 
-const Layout = () => {
-  return <div>Layout</div>;
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <NavbarBox />
+      {children}
+    </>
+  );
 };
 
 export default Layout;
