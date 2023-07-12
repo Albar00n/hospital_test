@@ -11,7 +11,7 @@ const backgroundHeader = ({ name }) => {
           <Container className="backgroundHeader_container">
             <div className="backgroundHeader_text">
               <p>Home / {name}</p>
-              <h2>About</h2>
+              <h2>{name}</h2>
             </div>
           </Container>
         </>

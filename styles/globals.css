@@ -384,3 +384,86 @@ body {
 		display: none;
 	}
 }
+
+/* Doctor Card */
+.card-doctor{
+	width: 992px;
+	height: 1096px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.p-news{
+	font-size: 18px;
+	font-family: Work Sans;
+	font-weight: 700;
+	letter-spacing: 2.88px;
+	text-transform: uppercase;
+	color: #159EEC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h1-news{
+	font-size: 32px;
+	font-family: Yeseva One;
+	color: #1F2B6C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.news-section{
+	width: fit-content;
+	height: 328px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.card-small{
+	width: 486px;
+	height: 154px;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-bottom:10px;
+}
+.text-card{
+	width: 273px;
+	height: 114px;
+}
+.dateInfo{
+	font-size: 14px;
+	font-family: Work Sans;
+	color: #159EEC;
+}
+.text-1{
+	font-size: 18px;
+	font-family: Work Sans;
+	line-height: 140%;
+	color: #212124;
+}
+.group66{
+	width: 88px;
+	height: 16px;
+	flex-shrink: 0;
+	color: black;
+}
+.view{
+	display: flex;
+	width: 16px;
+	height: 14.194px;
+	margin-right: 62px;
+
+}
+.icons{
+	display: flex;
+	justify-content: space-around;
+	height: 16px;
+	width: 88px;
+}
+.likes{
+	display: flex;
+	width: 39px;
+	height: 16px;
+}

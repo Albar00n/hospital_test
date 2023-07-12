@@ -25,10 +25,23 @@ export const cards = [
   { id: 2, name: "Mohamed Ahmed" },
   { id: 3, name: "Omer Salem" },
 ];
-
+export const doctorsNames = [
+  { id: 1, name: "Mohamed Ali" },
+  { id: 2, name: "Mohamed Ahmed" },
+  { id: 3, name: "Omer Salem" },
+  { id: 4, name: "Mohamed Ali" },
+  { id: 5, name: "Mohamed Ahmed" },
+  { id: 6, name: "Omer Salem" },
+];
 export const cardsContact = [
   { id: 1, icon: "/icons/phone.svg", name: "Emergency" },
   { id: 2, icon: "/icons/location.svg", name: "Location" },
   { id: 3, icon: "/icons/mail.svg", name: "Email" },
   { id: 4, icon: "/icons/clock.svg", name: "Working Hours" },
+];
+export const smallNews = [
+  { id: 1, img: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
+  { id: 2, icon: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
+  { id: 3, icon: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
+  { id: 4, icon: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
 ];
