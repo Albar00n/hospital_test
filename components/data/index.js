@@ -45,3 +45,31 @@ export const smallNews = [
   { id: 3, icon: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
   { id: 4, icon: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
 ];
+export const ServicesBar = [
+  { id: 1, name: "Free Checkup", text: "Free Checkup",color:'white', icon: "/icons/medical.svg" },
+  { id: 2, name: "Cardiogram", text: "Cardiogram",color:'white', icon: "/icons/Cardiogram.svg" },
+  { id: 3, name: "Dna Testing", text: "Dna Testing",color:'white', icon: "/icons/dnatesting.svg"},
+  { id: 4, name: "Blood Bank", text: "Blood Bank",color:'white', icon: "/icons/bloodbank.svg" },
+];
+export const num = [
+  { id: 1, name: "Neurology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 2, name: "Bones", textcolor: "#BFD2F8",bkcolor:'#1F2B6C', icon: "/icons/breackinghart.svg" },
+  { id: 3, name: "Oncology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg"},
+  { id: 4, name: "Otorhinolaryngology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 5, name: "Ophthalmology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 6, name: "Cardiovascular", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 7, name: "Pulmonology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 8, name: "Renal Medicine", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 9, name: "Gastroenterology", textcolor:"black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 10, name: "Urology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 11, name: "Dermatology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+  { id: 12, name: "Gynaecology", textcolor: "black",bkcolor:'white', icon: "/icons/breackinghart.svg" },
+];
+export const Servicescard = [
+  { id: 1, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+  { id: 2, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+  { id: 3, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+  { id: 4, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+  { id: 5, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+  { id: 6, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
+]

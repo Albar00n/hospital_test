@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import OurDoctors from "./OurDoctors";
 import SectionBg from "../Global/SectionBg";
 import Contact from "../Global/Contact";
+import Footer from "../Global/Footer";
 
 const AboutDetails = () => {
   return (
@@ -14,6 +15,7 @@ const AboutDetails = () => {
       <OurDoctors />
       {/*  */}
       <Contact />
+      <Footer/>
     </>
   );
 };

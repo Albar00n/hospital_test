@@ -1,7 +1,9 @@
 import React from "react";
-
+import ServicesDetails from "../components/Services";
 const services = () => {
-  return <div>services</div>;
+  return <>
+    <ServicesDetails/>
+  </>;
 };
 
 export default services;

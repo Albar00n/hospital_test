@@ -1,7 +1,10 @@
 import React from "react";
+import Newspage from "../components/News";
 
 const news = () => {
-  return <div>news</div>;
+  return <>
+    <Newspage/>
+  </>;
 };
 
 export default news;
