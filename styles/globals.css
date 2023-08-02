@@ -787,6 +787,9 @@ gap: 8px;
 	width: 314px;
 	height: 501px;
 	padding: 20px;
+	border:1px	solid #d5cfcf;
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 .textq{
 		font-family:'Yeseva One';	  	
@@ -799,6 +802,7 @@ gap: 8px;
 .mininews{
 	width: 274px;
 	height: 400px;
+	
 }
 .txt1{
 	color:#159EEC;
@@ -820,4 +824,46 @@ gap: 8px;
 	line-height: normal;
 	width: 204px;
 	height: 32px;
+}
+.p2{
+	color: #1F2B6C;
+	font-family: Yeseva One;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.map{
+	width: 992px;
+	height: 450px;
+}
+.contact{
+	width: 992px;
+	height: 486px;
+}
+.p9{
+	color:#159EEC;
+	font-family: Work Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.88px;
+	text-transform: uppercase;
+	width: 180px;
+	margin-bottom: 8px;
+}
+.p10{
+	color:#1F2B6C;
+	/* Display 2 */
+	font-family: Yeseva One;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.map-div{
+	width:100%;
+	display: flex;
+	justify-content: center;
 }

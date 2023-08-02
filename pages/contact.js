@@ -1,8 +1,14 @@
 import React from "react";
-
+import ContactDetails from "../components/Contact";
 
 const contact = () => {
-  return <div>contact</div>;
+  return (
+  <>
+      <ContactDetails/>
+    </>
+
+  )
+  
 };
 
 export default contact;

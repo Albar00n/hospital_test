@@ -6,7 +6,7 @@ const News = (props) => {
     return (
         <>
             <Container>
-                <div className=''>
+                <div className='mb-5'>
                     <div className=''>
                         <p className='p-news'>Better information, Better health</p>
                         <h1 className='h1-news'>News</h1>

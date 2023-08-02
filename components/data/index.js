@@ -34,10 +34,10 @@ export const doctorsNames = [
   { id: 6, name: "Omer Salem" },
 ];
 export const cardsContact = [
-  { id: 1, icon: "/icons/phone.svg", name: "Emergency" },
-  { id: 2, icon: "/icons/location.svg", name: "Location" },
-  { id: 3, icon: "/icons/mail.svg", name: "Email" },
-  { id: 4, icon: "/icons/clock.svg", name: "Working Hours" },
+  { id: 1, icon: "/icons/phone.svg", name: "Emergency" , color:'#BFD2F8' },
+  { id: 2, icon: "/icons/location.svg", name: "Location", color:'#1F2B6C' },
+  { id: 3, icon: "/icons/mail.svg", name: "Email", color:'#BFD2F8' },
+  { id: 4, icon: "/icons/clock.svg", name: "Working Hours", color:'#BFD2F8' },
 ];
 export const smallNews = [
   { id: 1, img: "/images/img-small.png", dateInfo: "Monday 05, September 2021 | By Author" , content:'This Article’s Title goes Here,but not too long',views:68,likes:86 },
@@ -73,3 +73,23 @@ export const Servicescard = [
   { id: 5, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
   { id: 6, name: "Free Checkup", text: "Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue. Velit nascetur massa in.",color:'white', pic: "/images/serpic.png" },
 ]
+export const RecentNews = [
+  { id: 1, img: "/images/photo3.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.' },
+  { id: 2, img: "/images/numtwo.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.' },
+  { id: 3, img: "/images/img-small.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.' },
+  { id: 4, img: "/images/photo1.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.' },
+  { id: 5, img: "/images/Rectangle 14.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.'},
+  { id: 6, img: "/images/serpic.png", dateInfo: "Monday 05, September 2021" , content:'This Article’s Title goes Here,but not too long.'},
+];
+export const newsCard = [
+  { id: 1, img: "images/twowomen.png",calenderIcon:'icons/calender.svg',calenderText:'Monday 05, September 2021',authorIcon:'icons/author.svg',authorText:'By Author',likeIcon:'icons/likes.svg',likeText:86,viewIcon:'icons/views.svg',viewText:68,textOne:'A passion for putting patients first',textTwo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....' },
+  { id: 2, img: "/images/second.png",calenderIcon:'icons/calender.svg',calenderText:'Monday 05, September 2021',authorIcon:'icons/author.svg',authorText:'By Author',likeIcon:'icons/likes.svg',likeText:86,viewIcon:'icons/views.svg',viewText:68,textOne:'A passion for putting patients first',textTwo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....'},
+  { id: 3, img: "/images/three.png",calenderIcon:'icons/calender.svg',calenderText:'Monday 05, September 2021',authorIcon:'icons/author.svg',authorText:'By Author',likeIcon:'icons/likes.svg',likeText:86,viewIcon:'icons/views.svg',viewText:68,textOne:'A passion for putting patients first',textTwo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....'},
+  { id: 4, img: "/images/four.png",calenderIcon:'icons/calender.svg',calenderText:'Monday 05, September 2021',authorIcon:'icons/author.svg',authorText:'By Author',likeIcon:'icons/likes.svg',likeText:86,viewIcon:'icons/views.svg',viewText:68,textOne:'A passion for putting patients first',textTwo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....' },
+];
+export const categoriesBar = [
+  { id: 1, name: "Surgery", num:3 },
+  { id: 2, name: "Health Care", num:5 },
+  { id: 3, name: "Medical", num:8},
+  { id: 4, name: "Professional", num:10},
+];  
