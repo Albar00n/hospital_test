@@ -15,8 +15,8 @@ const HomeDetails = () => {
       <Frame/>
       <OurServ/>
       <Alwayscare/>
-      <Footer/>
-     
+ 
+
     </>
   );
 };

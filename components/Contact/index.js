@@ -4,7 +4,6 @@ import GoogleMap from "./GoogleMap";
 import { Container } from "react-bootstrap";
 import GetIn from "./GetIn";
 import News from "../Doctors/News";
-import Footer from "../Global/Footer";
 const ContactDetails = () => {
   return (
   <>
@@ -14,11 +13,11 @@ const ContactDetails = () => {
       <GetIn/>
       <News/>
     </Container>
-    <Footer/>
+
   </>
 
   )
-  
+
 };
 
 export default ContactDetails;

@@ -1,40 +1,27 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import { num } from "../data";
 
 const Alwayscare = (props) => {
   return (
-    <>
+    <Container>
       <div>
         <div className="text-part text-center">
           <p>Always Caring</p>
           <p>Our Specialties</p>
         </div>
-        <div className="table">
-          <Row className="d-flex justify-content-center align-items-center">
+        <div className="w-full">
+          <Row className="d-flex justify-content-center align-items-center w-full">
             {num.map((item) => (
-              <Col
-                xl={3}
-                key={item.id}
-                style={{
-                  color: `${item.textcolor}`,
-                  width: "248px",
-                  height: "172px",
-                  background: `${item.bkcolor}`,
-                }}>
-                <div>
-                  <p>
-                    <img src={item.icon} />
-                  </p>
-
-                  <p>{item.name}</p>
-                </div>
+              <Col sx={2} md={3} xl={3} key={item.id} className="column m-1">
+                <img src={item.icon} />
+                <p className="m-2">{item.name}</p>
               </Col>
             ))}
           </Row>
         </div>
       </div>
-    </>
+    </Container>
   );
 };
 
