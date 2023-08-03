@@ -9,7 +9,7 @@ const Newspage = (props) => {
             <BackgroundHeader name='News'/>
             <Artical/>
             <Contact/>
-          
+
         </>
     )
 }

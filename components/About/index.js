@@ -15,7 +15,7 @@ const AboutDetails = () => {
       <OurDoctors />
       {/*  */}
       <Contact />
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };

@@ -1,6 +1,6 @@
 export const links = [
   { id: 1, name: "Home", link: "/" },
-  { id: 2, name: "About us", link: "/about" },
+  { id: 2, name: "About us", link: "/news/wds" },
   { id: 3, name: "Services", link: "/services" },
   { id: 4, name: "Doctors", link: "/doctors" },
   { id: 5, name: "News", link: "/news" },
@@ -92,4 +92,4 @@ export const categoriesBar = [
   { id: 2, name: "Health Care", num:5 },
   { id: 3, name: "Medical", num:8},
   { id: 4, name: "Professional", num:10},
-];  
+];

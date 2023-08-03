@@ -644,7 +644,7 @@ body {
 .di-1 {
 	display: flex;
 	/* height: fit-content; */
-	justify-content: start;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .f1 {
@@ -877,4 +877,13 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+	.di-1 {
+		display: flex;
+		/* height: fit-content; */
+		justify-content: start;
+		flex-wrap: wrap;
+	}
 }

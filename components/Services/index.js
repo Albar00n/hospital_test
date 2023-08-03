@@ -9,7 +9,7 @@ const ServicesDetails = () => {
       <BackgroundHeader name="Service"/>
       <Servicecard/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
 
   </>
 };

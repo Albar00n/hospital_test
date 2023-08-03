@@ -8,7 +8,7 @@ const Artical = (props) => {
     <div>
       <Container>
         <Row className="r mt-5  mb-5">
-          <Col className="a1">
+          <Col className="newsCard">
             {newsCard.map((item) => (
               <>
                 <div key={item.id} style={{ marginBottom: "20px" }}>
