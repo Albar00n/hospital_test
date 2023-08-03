@@ -1,14 +1,14 @@
 import React from "react";
 import ContactDetails from "../components/Contact";
 
-const contact = () => {
+const Contact = () => {
   return (
   <>
       <ContactDetails/>
     </>
 
   )
-  
+
 };
 
-export default contact;
+export default Contact;

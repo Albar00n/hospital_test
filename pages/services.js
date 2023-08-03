@@ -1,9 +1,9 @@
 import React from "react";
 import ServicesDetails from "../components/Services";
-const services = () => {
+const Services = () => {
   return <>
     <ServicesDetails/>
   </>;
 };
 
-export default services;
+export default Services;

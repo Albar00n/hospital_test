@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { services } from "../data/index";
