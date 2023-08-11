@@ -5,7 +5,7 @@ const Second = (props) => {
     return (
      <> 
         
-        <div className='d-flex 	justify-content-center align-item-center'>
+        <div className='d-flex 	justify-content-center align-item-center mb-5'>
              <div className='group182'>
                 <p className='text1'>Welcome to Meddical</p>
                 <p className='text2'>A Great Place to Receive Care</p>

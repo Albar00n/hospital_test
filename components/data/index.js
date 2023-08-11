@@ -1,6 +1,6 @@
 export const links = [
   { id: 1, name: "Home", link: "/" },
-  { id: 2, name: "About us", link: "/news/wds" },
+  { id: 2, name: "About us", link: "/about" },
   { id: 3, name: "Services", link: "/services" },
   { id: 4, name: "Doctors", link: "/doctors" },
   { id: 5, name: "News", link: "/news" },
@@ -92,4 +92,14 @@ export const categoriesBar = [
   { id: 2, name: "Health Care", num:5 },
   { id: 3, name: "Medical", num:8},
   { id: 4, name: "Professional", num:10},
+];
+export const AppointmentTime = [
+  { id: 1, date: "Monday", time:'09:00 AM - 07:00 PM' },
+  { id: 2, date: "Tuesday", time:'09:00 AM - 07:00 PM' },
+  { id: 3, date: "Wednesday", time:'09:00 AM - 07:00 PM' },
+  { id: 4, date: "Thursday", time:'09:00 AM - 07:00 PM' },
+  { id: 5, date: "Friday", time:'09:00 AM - 07:00 PM' },
+  { id: 6, date: "Saturday", time:'09:00 AM - 07:00 PM' },
+  { id: 7, date: "Sunday", time:'Closed' },
+  
 ];

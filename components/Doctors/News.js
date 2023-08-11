@@ -6,15 +6,16 @@ const News = (props) => {
     return (
         <>
             <Container>
-                <div className='mb-5'>
+                <div className='newss mb-5'>
                     <div className=''>
                         <p className='p-news'>Better information, Better health</p>
                         <h1 className='h1-news'>News</h1>
                     </div>
                     <div className='news-section'>
                         <div>
-                        <Row>
+                        <Row className='rowClass'>
                             <Col xl={6} className='card-small'>
+                                
                                     <div>   
                                     <img src='/images/img-small.png'/>
                                     </div>

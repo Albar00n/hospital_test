@@ -4,11 +4,11 @@ import { num } from "../data";
 
 const Alwayscare = (props) => {
   return (
-    <Container>
-      <div>
-        <div className="text-part text-center">
-          <p>Always Caring</p>
-          <p>Our Specialties</p>
+    <Container >
+      <div className="mb-5 mt-5">
+        <div className="">
+          <p className="p-55">Always Caring</p>
+          <p className="p-6">Our Specialties</p>
         </div>
         <div className="w-full">
           <Row className="d-flex justify-content-center align-items-center w-full">

@@ -4,9 +4,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import { cardsContact } from "../data/index";
 const Contact = () => {
   return (
+    <Container>
     <div className="contact">
       <Container>
-        <div className="contact_text">
+        <div className="contact_text  mb-5">
           <p className="context_text_one">Get in touch</p>
           <p className="context_text_two">Contact</p>
         </div>
@@ -34,6 +35,7 @@ const Contact = () => {
         </Row>
       </Container>
     </div>
+    </Container>
   );
 };
 

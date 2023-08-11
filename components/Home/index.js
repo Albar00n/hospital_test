@@ -7,15 +7,21 @@ import Frame from "./Frame";
 import OurServ from "./OurServ";
 import Alwayscare from "./Alwayscare";
 import Footer from "../Global/Footer";
+import Maincover from "./Maincover";
+import OurDoctors from "../About/OurDoctors";
+import News from "../Doctors/News";
+import Contact from "../Global/Contact";
 const HomeDetails = () => {
   return (
     <>
-      <BackgroundHeader />
+      <Maincover />
       <Second/>
       <Frame/>
       <OurServ/>
       <Alwayscare/>
- 
+      <OurDoctors/>
+      <News/>
+
 
     </>
   );

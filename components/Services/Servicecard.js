@@ -11,7 +11,7 @@ const ServiceCard = (props) => {
         <div className="d-flex justify-content-center align-items-center mt-5   ">
           <Row className="se-card">
             {Servicescard.map((item) => (
-              <Col className="se1-card" key={item.id}>
+              <Col className="se1-card" xl={4} md={6} sm={12} key={item.id}>
                 <Card className="se2-card">
                   <div className="ic">
                     <img src="icons/g2.svg" alt="" />

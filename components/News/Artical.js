@@ -49,7 +49,7 @@ const Artical = (props) => {
                       background: "#BFD2F8",
                     }}>
                     <Link
-                      href="/"
+                      href="/news/newsdetails"
                       style={{
                         color: "#1F2B6C",
                         fontFamily: "Work Sans",
@@ -65,6 +65,7 @@ const Artical = (props) => {
             ))}
           </Col>
           <Col className="a2">
+            <div>
             <Form>
               <Form.Control className="input" type="text" placeholder="Search" />
             </Form>
@@ -129,6 +130,7 @@ const Artical = (props) => {
                   </div>
                 ))}
               </Container>
+            </div>
             </div>
           </Col>
         </Row>

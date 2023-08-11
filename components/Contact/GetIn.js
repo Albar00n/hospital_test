@@ -94,7 +94,7 @@ const GetIn = (props) => {
                 background: "#BFD2F8",
                 paddingTop: "52px",
                 paddingLeft: "26px",
-              }}>
+              }} id="bb5" >
               <div>
                 <img src={item.icon} style={{ marginBottom: "10px" }} />
               </div>

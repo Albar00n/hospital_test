@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import AppointmentDetails from "../Appointment";
 import { links } from "../data/index";
 
 function NavbarBox() {
@@ -16,16 +16,16 @@ function NavbarBox() {
 
   return (
     <div>
-      <Navbar className="bg-body-tertiary bg-blue">
+      <Navbar className="navB  bg-body-tertiary bg-blue">
         <Container>
-          <Nav
+          <Nav  
             style={{
               width: "100%",
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
             }}>
-            <Nav className="me-auto my-2 my-lg-0 none" style={{ maxHeight: "100px" }} navbarScroll>
+            <Nav className="navdetails me-auto my-2 my-lg-0 none" style={{ maxHeight: "100px" }} navbarScroll>
               {links.map((item) => (
                 <Link className="color-white mr-3" key={item.id} href={item.link}>
                   <>{item.name}</>
@@ -34,7 +34,7 @@ function NavbarBox() {
             </Nav>
             <div className="d-flex">
               <img src="/icons/search.svg" alt="" className="mx-3" />
-              <Button className="button_nav">Appointment</Button>
+              <Link href='/appointement'><Button className="button_nav">Appointment</Button></Link>
               <img
                 src="/icons/menu.svg"
                 alt=""

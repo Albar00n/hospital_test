@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { Button, Container } from 'react-bootstrap'
 
@@ -15,10 +16,10 @@ const Footer = (props) => {
                         Important Links
                         </p>
                         <div className='f2-1'>
-                            <p><a href=''>Appointment</a></p>
-                            <p><a href=''>Doctors</a></p>
-                            <p><a href=''>Services</a></p>
-                            <p><a href=''>About Us</a></p>
+                            <p><Link  style={{color:'white'}} href="/appointement">Appointment</Link></p>
+                            <p><Link  style={{color:'white'}} href="/doctors">Doctors</Link></p>
+                            <p><Link  style={{color:'white'}} href="/services">Services</Link></p>
+                            <p><Link  style={{color:'white'}} href="/about">About Us</Link></p>
                         </div>
                     </div>
                     <div className='f2'>
@@ -34,7 +35,7 @@ const Footer = (props) => {
                         <p className='hf'>Newsletter</p>
                         <div className='box1'>
                             <p className='tbb m-1'>Enter your email address</p>
-                            <img src='icons/arrow1.svg'/>
+                            <img src='/icons/arrow1.svg'/>
                         </div>
                         
                     </div>
@@ -45,12 +46,12 @@ const Footer = (props) => {
                 </div>
                 <div className='lfooter'>
                     <div>
-                        <p className='bb'>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
+                        <p className='bbs'>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
                     </div>
                     <div className='iconfooter'>
-                        <div className='icf'><img src='icons/linkin.svg'/></div>
-                        <div className='icf'><img src='icons/face.svg'/></div>
-                        <div className='icf'><img src='icons/insta.svg'/></div>
+                        <div className='icf'><img src='/icons/linkin.svg'/></div>
+                        <div className='icf'><img src='/icons/face.svg'/></div>
+                        <div className='icf'><img src='/icons/insta.svg'/></div>
                     </div>
                     
                 </div>

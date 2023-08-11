@@ -1,3 +1,4 @@
+import React from 'react'
 import AboutDetails from "../components/About";
 
 const About = () => {
